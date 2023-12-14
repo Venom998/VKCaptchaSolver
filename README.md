@@ -15,7 +15,7 @@ git clone https://github.com/Venom998/VKCaptchaSolver.git
 
 ### Prerequisites
 
-Change `ai_model_lang_eng = false` to `true` in `config.js` if you want to use captchas with English characters only.
+Change `ai_model_lang_eng = false` to `true` in `start_node.js` if you want to use captchas with English characters only.
 
 `model_eng.onnx` - supports only "English" captchas.
 
