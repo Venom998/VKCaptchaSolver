@@ -11,7 +11,7 @@ git clone https://github.com/Venom998/VKCaptchaSolver.git
 ```
 2) `cd captcha_solver`
 3) Install all requirements: `npm install`
-4) Run [start_node.js]
+4) Run `node start_node.js`
 
 ### Prerequisites
 
