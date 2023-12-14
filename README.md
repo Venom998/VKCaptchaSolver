@@ -1,3 +1,27 @@
+# VKCaptchaSolver
+Use this VKontakte captcha breaker with 75-84% accuracy with Python, JS, 2023.
+
+It works with RU or ENG captchas up to 7 characters long.
+
+## Steps to start CaptchaSolver:
+1) Clone the repo
+
+```sh
+git clone https://github.com/Venom998/VKCaptchaSolver.git
+```
+2) `cd captcha_solver`
+3) Install all requirements: `npm install`
+4) Run [start_node.js]
+
+### Prerequisites
+
+Change `ai_model_lang_eng = false` to `true` in `config.js` if you want to use captchas with English characters only.
+
+`model_eng.onnx` - supports only "English" captchas.
+
+`model_ru.onnx` - supports only "Russian" captchas.
+
+
 ### Steps to train AI model:
 
 0) Install all requirements(if not yet) using command `pip install -r requirements.txt`

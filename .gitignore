@@ -2,3 +2,4 @@ images/*
 code/image.jpeg
 code/solver.py.old
 output*
+captcha_solver/node_modules

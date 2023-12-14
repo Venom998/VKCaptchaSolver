@@ -1,0 +1,16 @@
+{
+  "name": "captcha_solver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start_node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "jsnumpy": "^1.1.10",
+    "onnxruntime-node": "^1.16.3"
+  }
+}
